@@ -1,0 +1,315 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(9, 97, 82);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+
+.en h1,
+.en h2,
+.en h3 {
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #eef;
+  color: rgb(9, 97, 82);
+  text-decoration: none;
+  border: 1px solid;
+}
+
+.btn:hover {
+  background: #fff;
+  color: rgb(86, 107, 104);
+  border: 1px solid rgb(86, 107, 104);
+}
+
+.mosha-notice .container {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 20px;
+}
+
+.header-item {
+  text-align: center;
+  height: 48px;
+}
+
+.menu-shop-logo {
+  color: #eef;
+  background-color: rgb(9, 97, 82);
+}
+
+.header-item p {
+  margin: 0;
+}
+
+.header-item-phone {
+  display: none;
+}
+
+.header-item-phone img {
+  height: 40px;
+  padding: 4px 0;
+}
+
+.title h1 {
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 2.2em;
+  text-decoration: underline;
+  line-height: 2.4;
+}
+
+.hero-text p {
+  line-height: 2.4;
+}
+.hero-img img {
+  width: 400px;
+}
+
+.str {
+  background-color: #eef;
+  padding: 40px 0;
+}
+
+.str-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.str-text {
+  flex: 1;
+}
+
+.str-img {
+  flex: 1;
+}
+
+.str-img img {
+  height: 200px;
+}
+
+.our {
+  background-color: #eef;
+}
+
+.our-intro-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.our-intro-inner img {
+  width: 400px;
+}
+
+.our-policy-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.our-policy-inner img {
+  width: 400px;
+}
+
+.our .container {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+.care-title {
+  text-align: center;
+  padding: 100px 0 50px;
+}
+
+.care-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.care-inner img {
+  width: 600px;
+}
+
+.care-box {
+  width: 600px;
+}
+
+.care-box img {
+  margin-top: -80px;
+  width: 300px;
+}
+
+.life .container {
+  text-align: center;
+  max-width: none;
+  padding: 100px 0 40px;
+}
+
+.life-slider-inner {
+  display: flex;
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+
+.life-slider-inner img {
+  max-width:20%;
+}
+
+.tree {
+  color:#555;
+  padding-left:20px;
+}
+
+.tree a {
+  color: #555;
+}
+
+.tree a:hover {
+  color: #777;
+}
+
+.footer {
+  background-color: #ccf;
+}
+
+.footer .container {
+  padding: 60px 20px 0;
+}
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap:60px;
+}
+
+.footer-top {
+  display: flex;
+}
+
+.footer-top-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap:20px;
+}
+
+.footer-top-right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-help {
+  display: inline-block;
+}
+
+.footer-help a {
+  color: rgb(9, 97, 82);
+}
+
+.footer-help a:hover {
+  color:  rgb(86, 107, 104);
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.footer-title {
+  text-align: center;
+  font-size:11vw;
+  color: #eef;
+  white-space: nowrap;
+}
+
+@media (max-width:768px) {
+  .box {
+    flex-direction: column;
+  }
+
+  .header-inner {
+    justify-content: left;
+    gap: 40%;
+  }
+
+  .header-item {
+    display: none;
+  }
+
+  .header-item-phone {
+   display: block;
+  }
+
+  .str-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .our-intro-inner img {
+    max-height: 600px;
+    width: auto;
+  }
+
+  .our-policy-inner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .rev-mobile {
+    flex-direction: column-reverse;
+  }
+
+  .care-inner img {
+    width: 100%;
+  }
+
+  .care-box img {
+    width: 80%;
+  }
+}
