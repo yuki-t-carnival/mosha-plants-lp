@@ -293,6 +293,14 @@ h3 {
    display: block;
   }
 
+  .hero .container {
+    padding: 0 0 40px;
+  }
+
+  .hero-img img {
+    max-width: 100%;
+  }
+
   .str-img img {
     width: 100%;
     height: auto;
