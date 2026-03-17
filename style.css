@@ -60,6 +60,7 @@ h3 {
 .header-inner {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
   padding: 60px 20px;
 }
 
@@ -112,6 +113,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
   gap: 40px;
 }
 
@@ -133,6 +135,7 @@ h3 {
 
 .our-intro-inner {
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   align-items: center;
   gap: 40px;
@@ -146,6 +149,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
   gap: 50px;
 }
 
@@ -155,6 +159,7 @@ h3 {
 
 .our .container {
   display: flex;
+  margin 0 auto;
   flex-direction: column;
   gap: 150px;
 }
@@ -191,6 +196,7 @@ h3 {
 
 .life-slider-inner {
   display: flex;
+  margin: 0 auto;
   max-width: 100%;
   padding-bottom: 20px;
 }
@@ -221,6 +227,7 @@ h3 {
 }
 .footer-inner {
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   gap:60px;
 }
