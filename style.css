@@ -310,6 +310,6 @@ h3 {
   }
 
   .care-box img {
-    width: 80%;
+    max-width: 40%;
   }
 }
