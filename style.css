@@ -159,7 +159,7 @@ h3 {
 
 .our .container {
   display: flex;
-  margin 0 auto;
+  margin: 0 auto;
   flex-direction: column;
   gap: 150px;
 }
@@ -299,8 +299,7 @@ h3 {
   }
 
   .our-intro-inner img {
-    max-height: 600px;
-    width: auto;
+    max-width: 400px;
   }
 
   .our-policy-inner img {
