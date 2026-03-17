@@ -299,7 +299,7 @@ h3 {
   }
 
   .our-intro-inner img {
-    max-width: 400px;
+    max-width: 100%;
   }
 
   .our-policy-inner img {
